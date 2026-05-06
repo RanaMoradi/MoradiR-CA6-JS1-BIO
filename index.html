@@ -9,22 +9,22 @@
 
     <script>
       // Step 1: Welcome the player and collect their name
-      let playerName = prompt('Welcome to Bear Ninja Hunter! Please enter your name to get started:');
+      let playerName = prompt('Welcome to Bear Hunter Ninja! Please enter your name to get started:');
 
       // Step 2: Greet the player with a personalized alert
-      alert('Hello ' + playerName + '! Let\'s play Bear Ninja Hunter!');
+      alert('Hi ' + playerName + ' Let\'s Play!!');
 
       // Step 3: Ask the player to choose their character
-      let playerChoice = prompt('Choose your character: Bear, Ninja, or Hunter');
+      let playerChoice = prompt('Who are you: Bear, Ninja, or Hunter?');
 
       // Step 4: Hard-code the computer's choice
       const computerChoice = 'Bear';
 
       // Step 5: Display results on the page
-      document.getElementById('result').innerHTML = playerName + ' chose ' + playerChoice + '. The computer chose ' + computerChoice + '.';
+      document.getElementById('result').innerHTML = playerName + ', You picked ' + playerChoice + '!<br>The computer picked ' + computerChoice + '!';
 
       // Step 6: Display results in the console
-      console.log(playerName + ' chose ' + playerChoice + '. The computer chose ' + computerChoice + '.');
+      console.log(`${playerName}, You picked ${playerChoice}! The computer picked ` + computerChoice + '!');
     </script>
 
   </body>
